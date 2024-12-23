@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Radio Button</title>
+</head>
+<body>
+ 
+    <p>Select your favourite Size T-Shirt</p>
+    <input type="radio" name="size" value="M"><label for="M">M</label><br>
+    <input type="radio" name="size" value="L"><label for="M">L</label><br>
+    <input type="radio" name="size" value="XL"><label for="M">XL</label><br>
+    <input type="radio" name="size" value="XXL"><label for="M">XXL</label><br>
+    <input type="radio" name="size" value="XXXL"><label for="M">XXXL</label><br><br>
+    <button id="BN">Confurm</button>
+    <p id="output"></p>
+    <script>
+        const BN=document.querySelector("#BN");
+        const RButtons=document.querySelectorAll('input[name="size"]');
+         BN.addEventListener("click",()=>{
+            let selectBTN;
+            for(const radioBtn of RButtons){
+               if(radioBtn.checked){
+                selectBTN=radioBtn.value; 
+                break;               
+               }
+            }
+            output.innerText=selectBTN?`You selected ${selectBTN}`:`Please Select Option for your Favourite T-Shirt`;
+         })
+    </script>
+</body>
+</html>
