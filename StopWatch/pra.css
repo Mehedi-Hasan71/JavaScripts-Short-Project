@@ -1,0 +1,27 @@
+.timeBtn{
+    width: 80px;
+    height: 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color:#333333;
+    color: white;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+#timeDisplay{
+    font-size: 75px;
+    color: #40c437;
+    font-family: sans-serif;
+
+}
+#timeContainer{
+    text-align: center;
+    border-radius: 25px;
+    border: 3px solid;
+    background-color: #222222;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10%;
+    padding-bottom: 20px;
+}
