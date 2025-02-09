@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+   <title>Bangladesh University Of Professionals</title>
+    <body>
+        <section id="navbar1">
+            <div class="nav1">
+                <ul>
+                    <li><a href="Alumni.html">Alumni</a></li>
+                    <li><a href="">UCAM</a></li>
+                    <li><a href="">Webmail</a></li>
+                    <li><a href="career.html">Career</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="">Suggesion</a></li>
+                    <li><a href="">NOC</a></li>
+                    <li><a href="">Downloads</a></li>
+                    <li><a href="">Bup Admission 2023-24</a></li>
+                    <li><a href="">Academic Calendar 2024</a></li>
+                    <li><a href="">Certificate Verification </a></li>
+                    <li><a href="">Apply for BA & BSS</a></li>
+                  
+                </ul>
+            </div>
+        </section>
+        <section class="navbar2">
+            <div class="logoside">
+                <img src="Img/buplogo.png" class="logo1"><h4>Bangladesh University of<br>Professionals</h4>
+            </div>
+            <div class="navside" >
+                <ul>
+                    <li><a onclick="showHide()">Academics &#x25BE;</a>
+                        <ul class="dropdown" id="main8">
+                            <div class="threepair">
+                           <div class="firstside">
+                            <h5><a>Faculties</a></h5>
+                            <h6><a> Faculty of Arts & Social Science (FASS)</a></h6>
+                            <h6><a>Faculty of Security & Strategic Studies (FSSS)</a></h6>
+                            <h6><a>Faculty of Science & Technology (FST)</a></h6>
+                            <h6><a>Faculty of Business Studies (FBS)</a></h6>
+                            <h6><a>Faculty of Medical Studies (FMS)</a></h6>
+                            <h6><a>Centre for Modern Languages (CML)</a></h6>
+                            <h6><a>Centre for Higher Studies and Research (CHSR)</a></h6>
+                            <h6><a>BUP Research Centre</a></h6>
+                           </div>
+                           <div class="firstside">
+                            <h5><a>Programs</a></h5>
+                            <h6><a>Undergraduate</a></h6>
+                           <h6><a>Graduate</a></h6>
+                           </div>
+                           <div class="firstside">
+                            <h5><a>Important Links</a></h5>
+                           <h6><a>Office of the Evaluation, Faculty & Curriculum Development (OEFCD)</a></h6>
+                           <h6><a>Office of the International Affairs</a></h6>
+                           <h6><a>Internatonal Students</a></h6>
+                           <h6><a>Institutional of Quality Assurance Cell (IQAC)</a></h6>
+                           <h6><a>Counselling & Placement Center (CPC)</a></h6>
+                           <h6><a>Library</a></h6>
+                           <h6><a>All Clubs</a></h6>
+                           <h6><a>All Labs</a></h6>
+                           <h6><a>Academic Calender</a></h6>
+                           <h6><a>Alumni</a></h6>
+                          </div>
+                        </div>
+                        </ul></li>
+                    <li><a onclick="showHide2()">Affiliated Inst. &#x25BE;</a>
+                        <ul class="dropdown2" id="main9">  
+                           <div class="firstside2">                           
+                             <h6><a> All Affiliated institutes </a></h6>
+                             <h6><a>Armed Forces Affiliated institutes </a></h6>
+                             <h6><a>Army Affiliated institutes </a></h6>
+                             <h6><a>Navy Affiliated institutes </a></h6>
+                             <h6><a>Air Force Affiliated institutes</a></h6>
+                             <h6><a>BGB Affiliated institutes </a></h6>                       
+                          </div>
+                        
+                        </ul></li>
+                    <li><a onclick="showHide3()">Research &#x25BE;</a><ul class="dropdown3" id="main10">
+                        <div class="firstside3" >                           
+                            <h6><a> Centre for Higher Studies and Research (CHSR)</a></h6> 
+                            <h6><a>BUP Research Centre</a></h6>
+                            <h6><a>BUP Journal</a></h6>
+                            <h6><a>Faculty Arts and Social Sciences Inquest Journal</a></h6>
+                            <h6><a>Journal of Faculty of Science and Technology</a></h6>
+                            <h6><a>Journal of Innovation in Business Studies</a></h6>
+                          
+                     
+                         </div></ul></li>
+                    <li><a onclick="showHide4()">Admission &#x25BE;</a>
+                        <ul class="dropdown4" id="main11">  
+                            <div class="firstside4">                           
+                              <h6><a>Undergraduate Program </a></h6>
+                              <h6><a>Graduate Program</a></h6>
+                              <h6><a>Postgraduate Program </a></h6>                                                 
+                           </div>
+                         
+                         </ul></li>
+                    <li><a onclick="showHide5()">On Campus &#x25BE;</a>
+                        <ul class="dropdown5" id="main12">  
+                            <div class="firstside5">                           
+                              <h6><a>Library and Archive</a></h6>
+                              <h6><a>Accommodation/Halls</a></h6>
+                              <h6><a>Sports and Fitness</a></h6>
+                              <h6><a>ICT Services</a></h6>
+                              <h6><a>Cafeteria</a></h6>
+                              <h6><a>Safety and Support</a></h6> 
+                              <h6><a>Medical</a></h6>
+                              <h6><a>Parking and Transportation  </a></h6>                                             
+                           </div>                        
+                         </ul></li>
+                    <li><a onclick="showHide6()">Announcements &#x25BE;</a>
+                        <ul class="dropdown6" id="main13">  
+                            <div class="firstside6">                           
+                              <h6><a>News</a></h6>
+                              <h6><a>Upcoming Events</a></h6>
+                              <h6><a>Notice</a></h6>
+                              <h6><a>Career</a></h6>
+                              <h6><a>Procurement</a></h6>
+                              <h6><a>Results</a></h6>
+                          </div>                        
+                         </ul></li>
+                    <li><a onclick="showHide7()">Publications &#x25BE;</a>
+                        <ul class="dropdown7" id="main14">  
+                            <div class="firstside7">                           
+                              <h6><a>Journal</a></h6>
+                              <h6><a>Magazine</a></h6>
+                              <h6><a>Newsletter</a></h6>                                                 
+                           </div>
+                         
+                         </ul></li>
+                    <li><a onclick="showHide8()">About &#x25BE;</a>
+                        <ul class="dropdown8" id="main15">
+                            <div class="fourpair">
+                           <div class="firstside8">
+                            <h5><a>About BUP</a></h5>
+                            <h6><a></a></h6>
+                            <h6><a>History</a></h6>
+                            <h6><a>Facts & Figures</a></h6>
+                            <h6><a>Citizen Charter</a></h6>
+                            <h6><a>Annual Report</a></h6>
+                            <h6><a>Contact Us</a></h6>                        
+                           </div>
+                           <div class="firstside8">
+                            <h5><a>Administration</a></h5>
+                            <h6><a>The Chancellor</a></h6>
+                           <h6><a>Vice Chancellor</a></h6>
+                           <h6><a>Pro-Vice Chancellor</a></h6>
+                           <h6><a>Treasurer</a></h6>
+                           <h6><a>Registrar</a></h6>
+                           <h6><a>All Officers</a></h6>
+                           <h6><a>All Offices</a></h6>
+                           </div>
+                           
+
+
+                           <div class="firstside8">
+                         <h5><a>Regulatory Bodies</a></h5>
+                         <h6><a>Senate</a></h6>
+                         <h6><a>Syndicate</a></h6>
+                         <h6><a>Academic Council</a></h6>
+                         <h6><a>Finance Committee</a></h6>
+                        
+                          </div>
+                          <div class="firstside8">
+                            <h5><a>Academic Personnels</a></h5>
+                            <h6><a>Chairman of the Departments</a></h6>
+                            <h6><a>All Faculty Members</a></h6>
+                            <h6><a>All Faculty Officers</a></h6>
+                            <h6><a>All Department Officers</a></h6>                          
+                          </div>
+                          <div class="firstside8"></div>
+                          
+                        </div>
+                        </ul></li>
+                   
+                </ul>
+            </div>
+        </section>
+        <section id="main-first-img">
+                                      <!-- Extra Work -->
+<div id="fullgallary">
+    <h1 id="gallaryLeftBtn" class="sameleftRightBtn">></h2>
+        <div id="mainGallary">
+            <img src="Img/mainpage-img1.jpg">
+            <img src="Img/bup-car.jpg">
+            <img src="Img/des-img2.jpg">
+            <img src="Img/cafeteria.jpg">
+            <img src="Img/des-img1.jpg">
+                      
+        </div>
+        <h1 id="gallaryRightBtn" class="sameleftRightBtn"><</h1>          
+    </div>
+
+                    <!-- Extra Work -->
+            <div class="marquee-container">
+                <span class="marquee-text">. Admission Advertisement Session 2024-2025</span>
+            </div>
+        </section>
+        <section id="about-university">
+            <h2>About University</h2>
+        </section>
+        <section id="bup-description">
+            <div class="des-img">
+                <div class="des-img1">
+                    <img src="Img/des-img1.jpg">
+                </div>
+                <div class="des-img2">
+                    <img src="Img/des-img2.jpg">
+                </div>
+            </div>
+            <div class="bup-des-text">
+                <p>Establishment of a university for the armed forces educational and training institutes was a long felt need. National security, war strategy, medical, engineering and technology related to higher studies are in high demand at present. To keep pace and to be at par with the fast developing world, the national higher studies, research enabling modern knowledge and creating scope for education and studies are the obligations to be fulfilled. In order to expand and integrate the existing educational and training institutes of the armed forces, they were needed to be brought under a single umbrella or authority. Thereby, the establishment of "Bangladesh University of Professionals," (BUP) took place in that process and came in to being as 31st public university of Bangladesh on 05 June 2008. BUP is a unique public university run by the armed forces with upholding the motto "EXCELLENCE THROUGH KNOWLEDGE". The youngest university is confident in furthering the knowledge in the field of national security, technology and modern science to achieve the desired human resources development of the country.</p>
+             <button class="find-more">Find More</button>
+            </div>
+        </section>
+        <section id="vice-chancalor">
+            <div class="chancalor-text">
+               <h3>Message from the vice chancellor</h3>
+               <p>Welcome to the website of Bangladesh University of Professionals (BUP). BUP is one of the leading public universities established on June 5, 2008 with it’s motto "Excellence Through Knowledge". BUP is established in a lush green landscape with own unique features located away from busy life of metropolitan city. The university provides a tranquil, pollution free, secured campus life, with uninterrupted congenial academic atmosphere. BUP welcomes students who will dedicate their attention and devotion to serious academic pursuit to build up better tomorrow for the nation. We are committed to providing high quality education in attaining meaningful benefits for the students. In addition to its fifty-six well reputed affiliated colleges and institutes, the university has five faculties such as Faculty of Business Studies (FBS), Faculty of Security and Strategic Studies (FSSS), Faculty of Arts and Social Sciences (FASS), Faculty of Science & Technology (FST), and Faculty of Medical Studies (FMS). BUP has already commenced MPhil and Doctoral programmes conducted under Center for Higher Studies and Research (CHSR) while its Centre for Modern Language (CML) launched certificate courses in Arabic, Chinese, Turkish, Burmese and French lang... <a class="genarel-link">Read More</a></p>
+            </div>
+            <div class="cancelor-img">
+                <img src="Img/vc.jpg">
+                <h5>Major General Md Mahbub-ul<br>Alam, BSP, ndc, afwc, psc, MPhil,<br>PhD</h5>
+                <a class="genarel-link">Vice Chancellor</a>
+            </div>
+        </section>
+        <section id="Academics">
+            <div class="Academics-header">
+                <h4>Academics</h4>
+                <h6>All</h6>
+            </div>
+            
+            <div class="Academics-card">
+                
+            <div class="Academics-card1">
+                <img src="Img/academic-card1.avif">
+                <div class="Academics-text">
+                <h4><a class="genarel-link-text">Faculty of Arts &<br>Social Science (FASS)</a></h4>
+                <h5>Faculty of Arts and Social Sciences<br> (FASS) started its jour...</h5>
+                <h4 class="find-more">Find More ⭢</h4>
+                </div>
+            </div>
+            <div class="Academics-card1">
+                <img src="Img/academic-card2.jpg">
+                <div class="Academics-text">
+                <h4 class="genarel-link-text">Faculty of Security &<br>Strategic Studies (FSSS)</h4>
+                <h5>Faculty of Security & Strategic<br> Studies (FSSS) started its journey<br> from mid- 2013...</h5>
+                <h4 class="find-more">Find More ⭢</h4>
+                </div>
+            </div>
+            <div class="Academics-card1">
+                <img src="Img/academic-card3.jpg">
+                <div class="Academics-text">
+                <h4 class="genarel-link-text">Faculty of Science &<br> Technology (FST)</h4>
+                <h5>Faculty of Science and Technology<br> (FST) started as Faculty of<br> Technical and Engineering</h5>
+                <h4 class="find-more">Find More ⭢</h4>
+                </div>
+            </div>
+            <div class="Academics-card1">
+                <img src="Img/academic-card4.jpeg">
+                <div class="Academics-text">
+                <h4 class="genarel-link-text">About Faculty of Business<br> Studies (FBS)</h4>
+                <h5>The Faculty of Business Studies<br> (FBS) at Bangladesh University of<br> Professionals (BUP) i...</h5>
+                <h4 class="find-more genarel-link-text">Find More ⭢</h4>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section id="current-admission">
+            <div class="Academics-header">
+                <h4>Current Admissions</h4>              
+            </div>
+            <div class="current-admission-card">
+                <div class="current-box-button">
+                <div class="current-admission-card1">
+                    <h3>Bachelors<br>
+                        Program</h3>
+                        
+                </div>
+                <button class="current-admission-button ">Apply Now</button>
+            </div>
+            <div class="current-box-button">
+                <div class="current-admission-card1 board1">
+                    <h3>Bachelors<br>
+                        Program</h3>
+                        
+                </div>
+                <button class="current-admission-button button-apply1">Apply Now</button>
+            </div>
+            <div class="current-box-button">
+                <div class="current-admission-card1">
+                    <h3>Bachelors<br>
+                        Program</h3>
+                        
+                </div>
+                <button class="current-admission-button">Apply Now</button>
+            </div>
+            <div class="current-box-button">
+                <div class="current-admission-card1 board1">
+                    <h3>Bachelors<br>
+                        Program</h3>
+                        
+                </div>
+                <button class="current-admission-button button-apply1">Apply Now</button>
+            </div>
+            </div>
+        </section>
+        <section id="Affiliated-Institutes">
+            <div class="Academics-header">
+                <h4>Academics</h4>
+                <h6>All</h6>
+            </div>
+            <div class="Affiliated-Institutes-card">
+                <div class="Affiliated-Institutes1" id="affi-change">
+                    <img src="Img/affi-pic1.png">
+                    <h6><a>National Defence<br>College(NDC)</a></h6>
+                </div>
+                <div class="Affiliated-Institutes1 ">
+                    <img src="Img/Affiliated-Institutes-pic2.png">
+                    <h6><a>Armed ForcesInstitute of Pathology(AFIP)</a></h6>
+                </div>
+                <div class="Affiliated-Institutes1">
+                    <img src="Img/Armed_Forces_Medical_College_(Bangladesh)_Monogram.svg.png">
+                    <h6><a>Armed Forces<br> Medical College<br>(AFMC)</a></h6>
+                </div>
+                <div class="Affiliated-Institutes1">
+                    <img src="Img/images (3).jpeg">
+                    <h6><a>Armed Forces<br> Medical Institute<br>(AFMI)</h6>
+                </div>
+                <div class="Affiliated-Institutes1">
+                    <img src="Img/DSCSC Logo.jpg">
+                    <h6><a>Defense Services Command and StaffCollege (DSCSC)</a></h6>
+                </div>
+                <div class="Affiliated-Institutes1 ">
+                    <img src="Img/Bangladesh_Military_Academy_Monogram.svg.png">
+                    <h6><a>Bangladesh Military<br>Academy (BMA)</a></h6>
+                </div>
+            </div>
+        </section>
+        <section id="Research">
+            <div class="Academics-header">
+                <h4>Research in Bup</h4>
+                <h6>All</h6>
+            </div>
+            <div class="Research-box">
+                <div class="Research-box1">
+                    <div class="res-green"><h5>RESEARCH<br>Under CHSR</h5></div>
+                             <div class="research-td">
+                            <td ><i class="fa-solid fa-building"><small> 2025</small></i><p>Dietary Habit and Lifestyle Practice of Patient with Irritable Bowel Syndrome: A Case-Cont...</p><br>
+                             </td>
+                             </div>
+                             <div class="research-td">
+                           <td><i class="fa-solid fa-building"><small> 2025</small></i><p>Medicinal Plants and Formulations Used by Alternative Medicine Practitioner for Treatment...</p><br>
+                             </td>
+                          </div>
+                          <div class="research-td">
+                            <td><i class="fa-solid fa-building"><small> 2025</small></i><p>E-Accounting Practice and Its Effects on Financial Performance of Readymade Garments Ind...</p><br>
+                             </td>
+                          </div>
+                          <div class="research-td">
+                            <td><i class="fa-solid fa-building"><small> 2025</small></i><p>Ownership Structure, Dividend Payout Policy and Stock Price Volatility: A Study on List...</p><br>
+                             </td>
+                          </div>
+                          <div class="research-td">
+                            <td><i class="fa-solid fa-building"><small> 2025</small></i><p>Impact of Human Resource Management Practices on Employee Engagement with Moderating Ef...</p><br>
+                             </td>
+                          </div>
+                      <button class="res-button">See More</button>       
+                </div>
+                <div class="Research-box1" id="me">
+                    <div class="res-green" id="res-green"><h5>Published<br>Faculty Research</h5></div>
+                             <div class="research-td">
+                            <td ><i class="fa-solid fa-building"><small> 2025</small></i><p>M.N. Uddin, K.E. Hoque, M.M. Billah, The impact of multiple stenosis and aneurysms on arte...</p><br>
+                             </td>
+                             </div>
+                             <div class="research-td">
+                           <td><i class="fa-solid fa-building"><small> 2021</small></i><p>Barman, N., Dhali, M.N. and Hasan, M.B., 2021. Finding Appropriate Smoothing Constant for...</p><br>
+                             </td>
+                          </div>
+                          <div class="research-td">
+                            <td><i class="fa-solid fa-building"><small> 2022</small></i><p>Saima, F.N. and Ghosh, R. (2024), "Is the capital market of Bangladesh ready to reap the b...</p><br>
+                             </td>
+                          </div>
+                          <div class="research-td">
+                            <td><i class="fa-solid fa-building"><small> 2019</small></i><p>Uddin N, and Ullah, MN, (2019), “Maiden Zola Parishad Election in the History of Banglades...</p><br>
+                             </td>
+                          </div>
+                         
+                      <button class="res-button" id="res-button">See More</button>       
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="on-capmpus">
+            <div class="Academics-header">
+                <h4>Current Admissions</h4>              
+            </div>
+            <div class="on-campus-photos">              
+                <div class="campus-multiple-photo">
+                    <div class="campus-img1">
+                        <img src="Img/libary.jpg"><h3>Liabary & Achive</h3>
+                        <div class="overlay-text">Liabary and<br>Achive</div>
+                    </div>
+                    <div class="campus-img1">
+                        <img src="Img/hall.jpg"><h3>Accommodation/Halls</h3>
+                        <div class="overlay-text">Accommodation/Halls</div>
+
+                    </div>
+                    <div class="campus-img1">
+                        <img src="Img/game.jpg"><h3>Sports & Fitness</h3>
+                        <div class="overlay-text">Sports and Fitness</div>
+                    </div>
+                    <div class="campus-img1">
+                        <img src="Img/Ict.jpg"><h3>ICT Services</h3>
+                        <div class="overlay-text">ICT Services</div>
+                    </div>
+                    <div class="campus-img1">
+                        <img src="Img/cafeteria.jpg"><h3>Cafeteria</h3>
+                        <div class="overlay-text">Cafeteria</div>
+                    </div>
+                    <div class="campus-img1">
+                        <img src="Img/safety.jpg"><h3>Safety & Support</h3>
+                        <div class="overlay-text">Safety and<br>Support</div>
+                    </div>
+                    <div class="campus-img1">
+                        <img src="Img/medical-technologies-1024x585.jpeg"><h3>Medical</h3>
+                        <div class="overlay-text">Mehdical</div>
+                    </div>
+                    <div class="campus-img1">
+                        <img src="Img/bup-car.jpg"><h3>Parking & Transportation</h3>
+                        <div class="overlay-text">Parking and<br> Transportation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+     <sction id="number-of-glance" >
+        <div class="glance-h3">
+        <h3>We are in <a>Numbers</a> at a glance</h3>
+        </div>
+        <div class="three-glance">
+           
+            <div class="first-glance">
+                <div class="first-glance-height">
+                    <i class="fa fa-graduation-cap"></i><br>
+                <h2 id="count1"></h2>
+                <h3>Students</h3>
+                <span>International Students : <span id="count5"></span></span>
+            </div>
+            </div>
+            <div class="first-glance">
+                <div class="first-glance-height">
+                    <i class="fa-solid fa-gears"></i><br>
+                <h2 id="count2"></h2>
+                <h3>Faculty Members</h3>
+                <span>PhDs : <span id="count6">188</span>, Foreign Faculty : 1</span>
+            </div>
+            </div>
+            <div class="first-glance">
+                <div class="first-glance-height">
+                    <i class="fa-brands fa-teamspeak"></i><br>
+                <h2 id="count3"></h2>
+                <h3>Officers</h3>
+            </div>
+            </div>
+            <div class="first-glance">
+                <div class="first-glance-height">
+                    <i class="fa-solid fa-clipboard"></i><br>
+                <h2 id="count4">650</h2>
+                <h3>Stafs</h3>
+                
+            </div>
+            </div>
+        </div>
+     </sction> 
+    <section id="news">
+     <div class="newsPart">
+        <div class="Academics-header">
+            <h4>News</h4>
+            <h6>All</h6>
+        </div>
+        
+        <div class="Academics-card">
+            
+        <div class="Academics-card1">
+            <img src="Img/auditorium.jpg">
+            <div class="Academics-text">
+            <button class="news-button">N O V 05, 2024</button>
+            <h5><a>Workshop on "Urban Disaster Management: Challenges and Solutions"</a></h5>
+            <h4 class="find-more">Find More ⭢</h4>
+            </div>
+        </div>
+        <div class="Academics-card1">
+            <img src="Img/auditorium.jpg">
+            <div class="Academics-text">
+            <button class="news-button">O C T 20, 2024</button>
+            <h5><a>Visit by MPH Batch-2 to Rohingya Refugee Camp of Cox’s Bazar, Bangladesh</a></h5>
+           
+            </div>
+        </div>
+        <div class="Academics-card1">
+            <img src="Img/auditorium.jpg">
+            <div class="Academics-text">
+            <button class="news-button">S E P 28, 2024</button>
+            <h5><a>Supervisor-Researcher Meet</a></h5>
+           
+            </div>
+        </div>
+        
+       
+    </div>
+      </div>
+<div class="upcomingpart">
+    <div class="Academics-header">
+        
+        <h4>Upcoming</h4>
+        <h6>All</h6>
+    
+        
+</div> 
+<div class="date-upcoming-event" >
+    <div class="date-box">
+        <h5>27<br>Nov</h5>
+    </div>
+    <div class="date-box-beside">
+        <h4>SEMINAR ON "BLUE HELMETS FOR PEACE: CONT...<br><span>27 Nov 2024</span></h4>
+       
+    </div>
+</div> 
+</div>
+    </section>
+    <section id="noticevideo">
+       
+            <div class="Research-box1">
+                <div class="res-green">
+                    <h5>Notices</h5>
+                    <h6>ALL</h6></div>
+                         <div class="research-td">
+                        <td ><i class="fa-solid fa-building"><small> 2024</small></i><p><a>Habit and Lifestyle Practice of Patient with Irritable Bowel Syndrome: A Case-Cont...</a> </p><br>
+                         </td>
+                         </div>
+                         <div class="research-td">
+                       <td><i class="fa-solid fa-building"><small> 2024</small></i><p><a>Medicinal Plants and Formulations Used by Alternative Medicine Practitioner for Treatment...</a></p><br>
+                         </td>
+                      </div>
+                      <div class="research-td">
+                        <td><i class="fa-solid fa-building"><small> 2024</small></i><p><a>E-Accounting Practice and Its Effects on Financial Performance of Readymade Garments Ind...</a></p><br>
+                         </td>
+                      </div>
+                      <div class="research-td">
+                        <td><i class="fa-solid fa-building"><small> 2024</small></i><p><a>Ownership Structure, Dividend Payout Policy and Stock Price Volatility: A Study on List...</a></p><br>
+                         </td>
+                      </div>
+                      <div class="research-td">
+                        <td><i class="fa-solid fa-building"><small> 2024</small></i><p><a>Impact of Human Resource Management Practices on Employee Engagement with Moderating Ef...</a></p><br>
+                         </td>
+                      </div>
+                     
+            </div>
+            <div class="videoPart">
+                <iframe width="650" height="550" src="https://www.youtube.com/embed/qv7C_yp3h5E?si=CiZHFhbvDcYe5ZUa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+             
+            </div>    
+    </section>
+    <section id="important-links">
+        <div class="Academics-header">
+            <h4>Important Links</h4>
+            
+        </div>
+        <div class="Affiliated-Institutes-card">
+            <div class="Affiliated-Institutes1" id="affi-change">
+                <img src="Img/gonoproja.png">
+                <h6><a>Ministry Of Education</a></h6>
+            </div>
+            <div class="Affiliated-Institutes1 ">
+                <img src="Img/sososro.jpj.png">
+                <h6><a>Ministry Of Defense</a></h6>
+            </div>
+            <div class="Affiliated-Institutes1">
+                <img src="Img/monjuri.jpg">
+                <h6><a>University <br>Grants<br>Commission (UGC)</a></h6>
+            </div>
+            <div class="Affiliated-Institutes1">
+                <img src="Img/snakearmy.png">
+                <h6><a>Bangladesh Army</h6>
+            </div>
+
+            <div class="Affiliated-Institutes1 ">
+                <img src="Img/presidentseal.png">
+                <h6><a>Office of <br>the President of<br>Bangladesh</a></h6>
+            </div>
+        </div>
+    </section>
+    <section id="agenda">
+        <div class="Academics-header">
+            <h4>Annual Performance Agreement</h4>
+            <h6>All</h6>
+        </div>
+        <div class="agendaBox">
+            <div class="agenda-box1">
+                <h4>জাতীয় শুদ্ধাচার কৌশল</h4>
+                <div class="agendatwopart">
+                    <div class="agendaimg">
+                        <img src="Img/mapbd.png">
+                    </div>
+                    <div class="agenda-list">
+                      <p><a>▶ শুদ্ধাচার কৌশল কর্মপরিকল্পনা</a></p>
+                        <p><a>▶ ফোকাল পয়েন্ট কর্মকর্তা ও বিকল্প<br>কর্মকর্তা</a></p>
+                        <p><a>▶ ত্রৈমাসিক/ষান্মাসিক পরিবীক্ষণ/<br>মূল্যায়ন প্রতিবেদন</a></p>
+                        <p><a>▶ প্রজ্ঞাপন/পরিপত্র/নীতিমালা</a></p>
+                    </div>
+                </div>
+            </div>         
+            <div class="agenda-box1">
+                <h4>বার্ষিক কর্মসম্পাদন চুক্তি</h4>
+                <div class="agendatwopart">
+                    <div class="agendaimg">
+                        <img src="Img/apa.png">
+                    </div>
+                    <div class="agenda-list">
+                      <p><a>▶ এপিএ নির্দেশিকা/পরিপত্র/এপিএ টিম</a></p>
+                        <p><a>▶ বার্ষিক কর্মসম্পাদন চুক্তিসমূহ</a></p>
+                        <p><a>▶ অফিস আদেশ/পরিবীক্ষণ ও মূল্যায়ন প্রতিবেদন</a></p>
+                        <p><a>▶ এপিএ এমএস সফটওয়্যার লিংক</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="agenda-box1">
+                <h4>উদ্ভাবনী কার্যক্রম</h4>
+                <div class="agendatwopart">
+                    <div class="agendaimg">
+                        <img src="Img/setting-update.jpg">
+                    </div>
+                    <div class="agenda-list">
+                      <p><a>▶ ইনোভেশন টীম</a></p>
+                        <p><a>▶ প্রজ্ঞাপন/নীতিমালা/অফিস আদেশ</a></p>
+                        <p><a>▶ বার্ষিক উদ্ভাবনী কর্মপরিকল্পনা/কার্যবিবরণী</a></p>
+                        <p><a>▶ শ্রেষ্ঠ উদ্ভাবনী ধারণা/বাস্তবায়ন ও শোকেসিং</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="agenda-box1">
+                <h4>
+                    অভিযোগ প্রতিকার ব্যবস্থাপনা</h4>
+                <div class="agendatwopart">
+                    <div class="agendaimg">
+                        <img src="Img/thinking.png">
+                    </div>
+                    <div class="agenda-list">
+                      <p><a>▶ অনিক ও আপিল কর্মকর্তা</a></p>
+                        <p><a>▶ মাসিক/ত্রৈমাসিক/বার্ষিক পরিবীক্ষণ/মূল্যায়ন প্রতিবেদন</a></p>
+                        <p><a>▶ অভিযোগ দাখিল (অনলাইন/সরাসরি)</a></p>
+                        <p><a>▶ আইন/বিধি/পরি-পত্র/নীতিমালা/নির্দেশিকা</a></p>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="agenda-box1">
+                <h4>
+                    তথ্য অধিকার</h4>
+                <div class="agendatwopart">
+                    <div class="agendaimg">
+                        <img src="Img/unity.jpg">
+                    </div>
+                    <div class="agenda-list">
+                      <p><a>▶ দায়িত্বপ্রাপ্ত কর্মকর্তা ও আপিল কর্তৃপক্ষ</a></p>
+                        <p><a>▶ আবেদন ও আপিল ফরম</a></p>
+                        <p><a>▶ আইন/বিধি/পরি-পত্র/নীতিমালা/নির্দেশিকা</a></p>
+                        <p><a>▶ স্বপ্রণোদিতভাবে প্রকাশযোগ্য তথ্যসমূহ</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="agenda-box1">
+                <h4>সেবা প্রদান প্রতিশ্রুতি (সিটিজেনস চার্টার)</h4>
+                <div class="agendatwopart">
+                    <div class="agendaimg">
+                        <img src="Img/table-talk.jpg">
+                    </div>
+                    <div class="agenda-list">
+                      <p><a>▶ সিটিজেন চার্টার</a></p>
+                        <p><a>▶ ফোকাল পয়েন্ট কর্মকর্তা/পরিবীক্ষণ কমিটি</a></p>
+                        <p><a>▶ ত্রৈমাসিক/বার্ষিক পরিবীক্ষণ/মূল্যায়ন প্রতিবেদন</a></p>
+                        <p><a>▶ আইন/বিধি/নীতিমালা ও পরিপত্র</a></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        
+    </section>
+
+    <section class="footer">
+        <footer>
+            <div class="firstfooter">
+                <div class="logoandversity"><img src="Img/buplogo.png" class="footerpic">
+                    <h4>BANGLADESH UNIVERSITY OF<br>PROFESSIONALS</h4></div>
+                
+                <p>Mirpur Cantonment, Dhaka-1216, Bangladesh<br>
+                Phone: +8809666790799<br>
+                Fax: +88-02-223373197<br>
+                Email: info@bup.edu.bd</p>
+            </div>
+            <div class="secondfooter"><p><a>About the University</a><br>
+               <a> Career</a><br>
+                <a>Procurement</a><br>
+                <a>NOC</a><br>
+                <a>Admission</a><br>
+               <a>CHSR</a><br>
+               <a> BUP Research Centre</a></p>
+            </div>
+            <div class="thirdfooter">
+                <p><a>Anti Sexual Harassment</a><br>
+                    <a>Web Mail</a><br>
+                    <a>Downloads</a><br>
+                    <a>FAQ</a><br>
+                    <a>Library</a><br>
+                    <a>APA</a><br>
+                    <a>Privacy Policy</a></p>
+            </div>
+        
+            <div class="fourthfooter">
+                <div class="fbyoutube">
+                <i class="fa-brands fa-facebook"></i><i class="fa-brands fa-youtube"></i>
+                </div>
+                <div class="helpdesk">
+                    <img src="Img/dudok.jpg" class="dudok">
+                    <img src="Img/joruriseba.jpg" class="joruriseba">
+                </div>
+            </div>
+            
+            <div class="blue">
+                
+                <p>All Rights Reserved © BUP, 2024</p>
+                <p>Developed by <a>Nanosoft</a></p>
+            </div>
+            
+        </footer>
+     </section>
+     <script>
+        var man = document.getElementById('main8');      
+        var dispaly=0;
+        function showHide(){
+            if(dispaly==1){
+                man.style.display='block';
+                dispaly = 0;
+            }
+            else{
+                man.style.display='none';
+                dispaly = 1;
+            }
+        }
+        var man2 = document.getElementById('main9');      
+       
+        function showHide2(){
+            if(dispaly==1){
+                man2.style.display='block';
+                dispaly = 0;
+            }
+            else{
+                man2.style.display='none';
+                dispaly = 1;
+            }
+        }
+        var man3 = document.getElementById('main10');      
+       
+        function showHide3(){
+            if(dispaly==1){
+                man3.style.display='block';
+                dispaly = 0;
+            }
+            else{
+                man3.style.display='none';
+                dispaly = 1;
+            }
+        }
+        var man4 = document.getElementById('main11');      
+       
+        function showHide4(){
+            if(dispaly==1){
+                man4.style.display='block';
+                dispaly = 0;
+            }
+            else{
+                man4.style.display='none';
+                dispaly = 1;
+            }
+        }
+        var man5 = document.getElementById('main12');      
+       
+       function showHide5(){
+           if(dispaly==1){
+               man5.style.display='block';
+               dispaly = 0;
+           }
+           else{
+               man5.style.display='none';
+               dispaly = 1;
+           }
+       }
+       var man6 = document.getElementById('main13');      
+       
+       function showHide6(){
+           if(dispaly==1){
+               man6.style.display='block';
+               dispaly = 0;
+           }
+           else{
+               man6.style.display='none';
+               dispaly = 1;
+           }
+       }
+       var man7 = document.getElementById('main14');      
+       
+       function showHide7(){
+           if(dispaly==1){
+               man7.style.display='block';
+               dispaly = 0;
+           }
+           else{
+               man7.style.display='none';
+               dispaly = 1;
+           }
+       }
+       var man8 = document.getElementById('main15');      
+       
+       function showHide8(){
+           if(dispaly==1){
+               man8.style.display='block';
+               dispaly = 0;
+           }
+           else{
+               man8.style.display='none';
+               dispaly = 1;
+           }
+       }
+    //for automaticall increasing number   
+       let hasScrolled = false;
+       window.onscroll = function(){ 
+        if (hasScrolled) return; // Exit if the animation has already run
+        hasScrolled = true; // Set the flag to true after the first scroll
+        var count = 0;
+        var project1=setInterval(project1,10);
+    
+    function project1(){
+      count++;
+      var num1=document.querySelector("#count1");
+      num1.innerHTML=count;
+      if(count==7520){
+     
+        clearInterval(project1);
+      } 
+    }
+    var count2 = 0;
+    var project2=setInterval(project2,10);
+    
+    function project2(){
+      count2++;
+      var num2=document.querySelector("#count2");
+      num2.innerHTML=count2;
+      if(count2==515){
+     
+        clearInterval(project2);
+      } 
+    }
+    var count3 = 0;
+    var project3=setInterval(project3,10);
+    
+    function project3(){
+      count3++;
+      var num3=document.querySelector("#count3");
+      num3.innerHTML=count3;
+      if(count3==310){
+     
+        clearInterval(project3);
+      } 
+    }
+    var count4 = 0;
+    var project4=setInterval(project4,10);
+    
+    function project4(){
+      count4++;
+      var num4=document.querySelector("#count4");
+      num4.innerHTML=count4;
+      if(count4==650){
+     
+        clearInterval(project4);
+      } 
+    }
+    var count5 = 0;
+    var project5=setInterval(project5,10);
+    
+    function project5(){
+      count5++;
+      var num5=document.querySelector("#count5");
+      num5.innerHTML=count5;
+      if(count4==115){
+     
+        clearInterval(project5);
+      } 
+    }
+    var count6 = 0;
+    var project6=setInterval(project6,10);
+    
+    function project6(){
+      count6++;
+      var num6=document.querySelector("#count6");
+      num6.innerHTML=count6;
+      if(count6==188){
+     
+        clearInterval(project6);
+      } 
+    }
+}
+
+ let scrollContainer=document.querySelector("#mainGallary");
+ let leftBtn=document.querySelector("#gallaryLeftBtn");
+ let rightBtn=document.querySelector("#gallaryRightBtn");
+
+ leftBtn.addEventListener("click",()=>{
+    scrollContainer.style.scrollBehavior="smooth";
+    scrollContainer.scrollLeft+=1350;
+ })
+ rightBtn.addEventListener("click",()=>{
+    scrollContainer.style.scrollBehavior="smooth";
+    scrollContainer.scrollLeft-=1350;
+ })
+
+     </script>
+</body>
+</html> 
